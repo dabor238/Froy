@@ -105,6 +105,8 @@ h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
   z-index: 1;
 }
 
+
+
 @media screen and (max-width: 480px) {
   h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
     text-shadow: none;
@@ -705,6 +707,7 @@ p {
   margin-bottom: 16px;
   letter-spacing: 0.5px;
   font-weight: 300;
+  text-align: justify;
 }
 
 p.heading {
@@ -1656,7 +1659,7 @@ img[class~="center"] {
 }
 
 .padding-onlytop-md {
-  padding-top: 50px !important;
+  padding-top: 30px !important;
 }
 
 .padding-onlybottom-md {
