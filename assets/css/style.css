@@ -79,7 +79,7 @@ a:focus {
 /*-------------------------------------------------*/
 body {
   font: 100% "Montserrat", sans-serif;
-  color: #2F2911;
+  color: #1faced;
   background-color: #EEEEEE;
 }
 
@@ -89,12 +89,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font: 100% "Montserrat", sans-serif;
-  color: #2F2911;
+  color: #454545;
   letter-spacing: 0.5px;
 }
 
 h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
-  color: #2F2911;
+  color: #454545;
   text-transform: uppercase;
   position: relative;
   letter-spacing: 0;
@@ -114,7 +114,7 @@ h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
 }
 
 h1.title:after, h2.title:after, h3.title:after, h4.title:after, h5.title:after, h6.title:after {
-  border: 2px solid #CBBD9A;
+  border: 2px solid #1faced;
   border-radius: 2px;
   position: absolute;
   content: "";
@@ -136,7 +136,7 @@ h1.title.line, h2.title.line, h3.title.line, h4.title.line, h5.title.line, h6.ti
 h1.title.line:after, h2.title.line:after, h3.title.line:after, h4.title.line:after, h5.title.line:after, h6.title.line:after {
   height: 40px;
   width: 2px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 0;
   border: none;
   top: -60px;
@@ -228,7 +228,7 @@ h1.small, h2.small {
 }
 
 h1.small strong, h1.small b, h2.small strong, h2.small b {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -250,7 +250,7 @@ h1 i:after, h2 i:after {
   left: 0;
   width: 100%;
   height: 23px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   z-index: -1;
   transition: background-color .4s ease;
 }
@@ -270,7 +270,7 @@ h1 i.simple:after, h1 i.simple:before, h2 i.simple:after, h2 i.simple:before {
 }
 
 h1 span.data, h2 span.data {
-  color: #2F2911;
+  color: #1faced;
 }
 
 h2 {
@@ -323,7 +323,7 @@ h3.small {
 }
 
 h3.small strong, h3.small b {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -382,7 +382,7 @@ h6.small {
 }
 
 h6.heading {
-  color: #2F2911;
+  color: #1faced;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -390,7 +390,7 @@ h6.heading {
 }
 
 a {
-  color: #CBBD9A;
+  color: #1faced;
   text-decoration: none;
   transition: color .4s ease;
 }
@@ -401,7 +401,7 @@ a:focus, a:active, a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #2F2911;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -427,10 +427,10 @@ a.btn {
   display: inline-block;
   overflow: hidden;
   outline: none;
-  border: 2px solid #2F2911;
+  border: 2px solid #1faced;
   border-radius: 0;
   font-weight: bold;
-  color: #2F2911;
+  color: #1faced;
   position: relative;
   margin-right: 10px;
   margin-left: 10px;
@@ -446,7 +446,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white !important;
   border-color: transparent;
   transition: all .4s ease;
@@ -475,7 +475,7 @@ a.btn-alt {
   margin-bottom: 35px;
   text-decoration: none !important;
   transition: all .4s ease;
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 @media screen and (max-width: 991px) {
@@ -485,7 +485,7 @@ a.btn-alt {
 }
 
 a.btn-alt:hover {
-  background-color: #2F2911;
+  background-color: #1faced;
   color: white !important;
   transition: all .4s ease;
 }
@@ -502,14 +502,14 @@ a.btn-alt.small {
   height: 40px;
   line-height: 42px;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   font-size: 12px;
 }
 
 a.btn-alt.small:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   -webkit-transform: all .4s ease;
       -ms-transform: all .4s ease;
@@ -522,12 +522,12 @@ a.btn-alt.small.white {
 
 a.btn-alt.small.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.small.white.active {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.small.white.active:hover {
@@ -536,24 +536,24 @@ a.btn-alt.small.white.active:hover {
 }
 
 a.btn-alt.small.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 a.btn-alt.small.active:hover {
   background-color: transparent;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.small.activetwo {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 a.btn-alt.small.activetwo:hover {
   border-color: white;
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.medium {
@@ -563,8 +563,8 @@ a.btn-alt.medium {
   font-weight: 400;
   text-rendering: geometricPrecision;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   border-radius: 50px;
   font-size: 13px;
@@ -572,7 +572,7 @@ a.btn-alt.medium {
 }
 
 a.btn-alt.medium:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   -webkit-transform: all .4s ease;
       -ms-transform: all .4s ease;
@@ -585,28 +585,28 @@ a.btn-alt.medium.white {
 
 a.btn-alt.medium.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.medium.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 a.btn-alt.medium.active:hover {
   background-color: transparent;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt.medium.activetwo {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 a.btn-alt.medium.activetwo:hover {
   border-color: white;
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 a.btn-alt i {
@@ -616,7 +616,7 @@ a.btn-alt i {
 a.btn-pro {
   font-size: 16px;
   line-height: 16px;
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
   text-decoration: none;
   position: relative;
@@ -655,7 +655,7 @@ a.btn-pro.simple:hover {
 a.btn-simple {
   font-size: 16px;
   line-height: 16px;
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
   text-decoration: none;
   position: relative;
@@ -666,7 +666,7 @@ a.btn-simple {
 
 a.btn-simple:before {
   content: '';
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 2px;
   position: absolute;
   top: -1px;
@@ -695,7 +695,7 @@ a#open-filters {
 
 a#open-filters:hover {
   text-decoration: none;
-  color: #CBBD9A !important;
+  color: #1faced !important;
   transition: all .4s ease;
 }
 
@@ -738,7 +738,7 @@ p.heading.right {
 
 p b, p strong {
   font-weight: bold;
-  color: #2F2911;
+  color: #1faced;
 }
 
 p a {
@@ -750,7 +750,7 @@ p.light {
 }
 
 .color-dark {
-  color: #2F2911;
+  color: #1faced;
 }
 
 .underline {
@@ -763,7 +763,7 @@ p.light {
 }
 
 .color-background {
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 .color-background p {
@@ -824,7 +824,7 @@ i.service.material {
   font-size: 30px;
   line-height: 60px;
   text-align: center;
-  color: #CBBD9A;
+  color: #1faced;
   display: inline-block;
 }
 
@@ -833,7 +833,7 @@ i.service.material[class|="pd"] {
 }
 
 i.service.material:hover {
-  color: #2F2911;
+  color: #1faced;
 }
 
 i.service.material.left {
@@ -845,7 +845,7 @@ i.service.left {
 }
 
 i.service:hover {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -869,7 +869,7 @@ dl dt {
 }
 
 dl dd {
-  border-left: 2px solid #CBBD9A;
+  border-left: 2px solid #1faced;
   font-family: "Open Sans", sans-serif;
   padding-left: 20px;
   margin-bottom: 10px;
@@ -894,7 +894,7 @@ ul li.border {
 }
 
 mark {
-  background: #CBBD9A;
+  background: #1faced;
   color: white;
   padding: 0 6px;
 }
@@ -908,12 +908,12 @@ pre {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
-  color: #2F2911;
+  color: #1faced;
   margin: 25px 0;
 }
 
 code {
-  color: #CBBD9A;
+  color: #1faced;
   background-color: #fcfcfc;
 }
 
@@ -928,7 +928,7 @@ blockquote, q {
   padding: 25px;
   font-family: "Trirong", serif;
   font-style: italic;
-  background-color: #2F2911;
+  background-color: #1faced;
   text-rendering: geometricPrecision;
   margin: 25px 0;
   padding-left: 80px;
@@ -1004,7 +1004,7 @@ blockquote.heading:before, q.heading:before {
 }
 
 blockquote.heading.post, q.heading.post {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   padding: 75px 50px 50px 120px;
   margin: 36px 0;
@@ -1074,7 +1074,7 @@ textarea {
   margin-bottom: 35px;
   text-decoration: none !important;
   transition: all .4s ease;
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 .popup-youtube.simple:before, .popup-vimeo.simple:before {
@@ -1088,7 +1088,7 @@ textarea {
 }
 
 .popup-youtube.simple:hover, .popup-vimeo.simple:hover {
-  background-color: #2F2911;
+  background-color: #1faced;
   color: white !important;
   transition: all .4s ease;
 }
@@ -1104,15 +1104,15 @@ textarea {
   font-weight: 600;
   text-rendering: geometricPrecision;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   border-radius: 40px;
   font-size: 12px;
 }
 
 .popup-youtube.simple.small:hover, .popup-vimeo.simple.small:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   -webkit-transform: all .4s ease;
       -ms-transform: all .4s ease;
@@ -1125,12 +1125,12 @@ textarea {
 
 .popup-youtube.simple.small.white:hover, .popup-vimeo.simple.small.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.small.white.active, .popup-vimeo.simple.small.white.active {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.small.white.active:hover, .popup-vimeo.simple.small.white.active:hover {
@@ -1139,24 +1139,24 @@ textarea {
 }
 
 .popup-youtube.simple.small.active, .popup-vimeo.simple.small.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 .popup-youtube.simple.small.active:hover, .popup-vimeo.simple.small.active:hover {
   background-color: transparent;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.small.activetwo, .popup-vimeo.simple.small.activetwo {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 .popup-youtube.simple.small.activetwo:hover, .popup-vimeo.simple.small.activetwo:hover {
   border-color: white;
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.medium, .popup-vimeo.simple.medium {
@@ -1166,15 +1166,15 @@ textarea {
   font-weight: 600;
   text-rendering: geometricPrecision;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   border-radius: 50px;
   font-size: 13px;
 }
 
 .popup-youtube.simple.medium:hover, .popup-vimeo.simple.medium:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   -webkit-transform: all .4s ease;
       -ms-transform: all .4s ease;
@@ -1187,28 +1187,28 @@ textarea {
 
 .popup-youtube.simple.medium.white:hover, .popup-vimeo.simple.medium.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.medium.active, .popup-vimeo.simple.medium.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 .popup-youtube.simple.medium.active:hover, .popup-vimeo.simple.medium.active:hover {
   background-color: transparent;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple.medium.activetwo, .popup-vimeo.simple.medium.activetwo {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
 }
 
 .popup-youtube.simple.medium.activetwo:hover, .popup-vimeo.simple.medium.activetwo:hover {
   border-color: white;
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 .popup-youtube.simple i, .popup-vimeo.simple i {
@@ -1231,7 +1231,7 @@ textarea {
           transform: translate(-50%, -50%);
   width: 70px;
   height: 70px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   line-height: 70px;
   padding-left: 5px;
   z-index: 1;
@@ -1262,7 +1262,7 @@ textarea {
 }
 
 .popup-youtube.black:hover:before, .popup-vimeo.black:hover:before {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   transition: background-color .4s ease;
 }
 
@@ -1326,7 +1326,7 @@ textarea {
 .nav-tabs li a {
   font-size: 14px;
   line-height: 14px;
-  color: #2F2911;
+  color: #1faced;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -1344,7 +1344,7 @@ textarea {
 .nav-tabs li a:hover, .nav-tabs li a:focus {
   border: none;
   border-radius: 2px;
-  color: #CBBD9A;
+  color: #1faced;
   background-color: transparent;
   transition: all .4s ease;
 }
@@ -1357,13 +1357,13 @@ textarea {
   border: none;
   border-radius: 2px;
   text-decoration: none;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
   border: none;
   border-radius: 2px;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 .nav-tabs li.active a:focus {
@@ -1398,7 +1398,7 @@ textarea {
 }
 
 .nav-tabs.alt li.active a {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   opacity: 1;
   border-radius: 40px;
@@ -1453,7 +1453,7 @@ textarea {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  color: #2F2911;
+  color: #1faced;
 }
 
 .panel-group .panel .panel-body {
@@ -1469,12 +1469,12 @@ textarea {
 
 /* core classes */
 ::-moz-selection {
-  background: #CBBD9A;
+  background: #1faced;
   color: white;
 }
 
 ::selection {
-  background: #CBBD9A;
+  background: #1faced;
   color: white;
 }
 
@@ -1485,12 +1485,12 @@ textarea {
 
 /* class color: set font with secondary color */
 [class~="color"] {
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 /* class black: set font with black color */
 [class~="black"] {
-  color: #2F2911 !important;
+  color: #1faced !important;
 }
 
 /* class grey: set font with grey color */
@@ -2237,20 +2237,20 @@ header.transparent.fixed-top .navbar.white #logo img:not(.white-logo).retina {
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li > a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li > a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li > a {
-  color: #2F2911;
+  color: #1faced;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li > a.active-item, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li > a.active-item, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li > a.active-item {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.search, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.search, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.search {
-  color: #2F2911;
+  color: #1faced;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.lang span.current a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.lang span.current a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.lang span.current a {
-  color: #2F2911;
+  color: #1faced;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a {
@@ -2262,11 +2262,11 @@ header.transparent.fixed-top .navbar.white #menu .menu-holder ul.mega-sub-menu l
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul.mega-sub-menu li a:hover, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul.mega-sub-menu li a:hover, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul.mega-sub-menu li a:hover {
-  color: #2F2911;
+  color: #1faced;
 }
 
 header.transparent.fixed-top .navbar.white #menu-responsive .menu-button .bar, header.transparent.fixed-top .navbar.white #menu-responsive-sidemenu .menu-button .bar, header.transparent.fixed-top .navbar.white #menu-responsive-classic .menu-button .bar {
-  background-color: #2F2911;
+  background-color: #1faced;
 }
 
 header.fixed {
@@ -2405,17 +2405,17 @@ header nav.navbar #menu .menu-holder ul li a, header nav.navbar #sidemenu .menu-
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: #2F2911;
+  color: #1faced;
   padding: 10px 0;
   letter-spacing: 0.5px;
 }
 
 header nav.navbar #menu .menu-holder ul li a:hover, header nav.navbar #sidemenu .menu-holder ul li a:hover, header nav.navbar #menu-classic .menu-holder ul li a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 header nav.navbar #menu .menu-holder ul li a.active, header nav.navbar #menu .menu-holder ul li a.active-item, header nav.navbar #sidemenu .menu-holder ul li a.active, header nav.navbar #sidemenu .menu-holder ul li a.active-item, header nav.navbar #menu-classic .menu-holder ul li a.active, header nav.navbar #menu-classic .menu-holder ul li a.active-item {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 header nav.navbar #menu .menu-holder ul li.submenu, header nav.navbar #sidemenu .menu-holder ul li.submenu, header nav.navbar #menu-classic .menu-holder ul li.submenu {
@@ -2440,7 +2440,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu, header nav.navba
   background-color: white;
   padding: 16px;
   transition: all .4s ease;
-  border-top: 2px solid #CBBD9A;
+  border-top: 2px solid #1faced;
 }
 
 header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li, header nav.navbar #sidemenu .menu-holder ul li.submenu ul.sub-menu li, header nav.navbar #menu-classic .menu-holder ul li.submenu ul.sub-menu li {
@@ -2458,7 +2458,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li:last-child, he
 }
 
 header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #sidemenu .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #menu-classic .menu-holder ul li.submenu ul.sub-menu li a {
-  color: #2F2911;
+  color: #454545;
   margin-left: 0;
   font-size: 14px;
   line-height: 30px;
@@ -2469,7 +2469,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a, header nav.
 }
 
 header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #menu-classic .menu-holder ul li.submenu ul.sub-menu li a:hover {
-  color: #CBBD9A !important;
+  color: #1faced !important;
 }
 
 @media screen and (min-width: 991px) {
@@ -2621,10 +2621,10 @@ header nav.navbar #menu .menu-holder ul li.lang span.current a, header nav.navba
   header nav.navbar #menu .menu-holder ul li.lang span.current a, header nav.navbar #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar #menu-classic .menu-holder ul li.lang span.current a {
     padding: 10px 0;
     margin-right: 16px;
-    color: #CBBD9A;
+    color: #1faced;
   }
   header nav.navbar #menu .menu-holder ul li.lang span.current a:hover, header nav.navbar #sidemenu .menu-holder ul li.lang span.current a:hover, header nav.navbar #menu-classic .menu-holder ul li.lang span.current a:hover {
-    color: #CBBD9A;
+    color: #1faced;
   }
 }
 
@@ -2638,7 +2638,7 @@ header nav.navbar #menu .menu-holder ul li.lang ul, header nav.navbar #sidemenu 
   right: -16px;
   width: 55px;
   text-align: center;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   padding: 16px;
   transition: all .4s ease;
 }
@@ -2668,7 +2668,7 @@ header nav.navbar #menu .menu-holder ul li.lang ul li a, header nav.navbar #side
 }
 
 header nav.navbar #menu .menu-holder ul li.lang ul li a:hover, header nav.navbar #sidemenu .menu-holder ul li.lang ul li a:hover, header nav.navbar #menu-classic .menu-holder ul li.lang ul li a:hover {
-  color: #2F2911;
+  color: #1faced;
 }
 
 @media screen and (max-width: 991px) {
@@ -2694,7 +2694,7 @@ header nav.navbar #menu .menu-holder ul li.lang:hover ul, header nav.navbar #sid
 }
 
 header nav.navbar #menu .menu-holder#home-menu ul.filters li a.is-checked, header nav.navbar #sidemenu .menu-holder#home-menu ul.filters li a.is-checked, header nav.navbar #menu-classic .menu-holder#home-menu ul.filters li a.is-checked {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 header nav.navbar #menu .menu-holder#home-menu ul.filters li a:focus, header nav.navbar #sidemenu .menu-holder#home-menu ul.filters li a:focus, header nav.navbar #menu-classic .menu-holder#home-menu ul.filters li a:focus {
@@ -2710,7 +2710,7 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
   margin: 0 auto;
   font-size: 100px;
   font-weight: 100;
-  color: #CBBD9A;
+  color: #1faced;
   width: 50px;
   height: 120px;
 }
@@ -2755,13 +2755,13 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
     padding: 6px 0;
   }
   header nav.navbar #menu.open .menu-holder ul li a, header nav.navbar #sidemenu.open .menu-holder ul li a, header nav.navbar #menu-classic.open .menu-holder ul li a {
-    color: #2F2911;
+    color: #1faced;
     padding: 0;
     font-size: 35px;
     line-height: 55px;
   }
   header nav.navbar #menu.open .menu-holder ul li a:hover, header nav.navbar #sidemenu.open .menu-holder ul li a:hover, header nav.navbar #menu-classic.open .menu-holder ul li a:hover {
-    color: #CBBD9A;
+    color: #1faced;
   }
   header nav.navbar #menu.open .menu-holder ul li.submenu, header nav.navbar #sidemenu.open .menu-holder ul li.submenu, header nav.navbar #menu-classic.open .menu-holder ul li.submenu {
     display: block;
@@ -2791,7 +2791,7 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
     transition: opacity .4s ease;
   }
   header nav.navbar #menu.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #sidemenu.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #menu-classic.open .menu-holder ul li.submenu ul.sub-menu li a {
-    color: #CBBD9A;
+    color: #1faced;
     font-size: 12px;
     line-height: 22px;
     text-transform: uppercase;
@@ -2874,7 +2874,7 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
     color: #d1d2d3;
   }
   header nav.navbar #menu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #sidemenu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #menu-classic.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover {
-    color: #CBBD9A !important;
+    color: #1faced !important;
   }
 }
 
@@ -2934,14 +2934,14 @@ header nav.navbar #menu.minimal.open .menu-holder ul li, header nav.navbar #side
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li a {
-  color: #2F2911;
+  color: #1faced;
   padding: 0;
   font-size: 35px;
   line-height: 55px;
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li a:hover, header nav.navbar #sidemenu.minimal.open .menu-holder ul li a:hover, header nav.navbar #menu-classic.minimal.open .menu-holder ul li a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.submenu, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.submenu, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.submenu {
@@ -2976,7 +2976,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li, 
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.submenu ul.sub-menu li a {
-  color: #2F2911;
+  color: #1faced;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
@@ -2985,7 +2985,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.submenu ul.sub-menu li a:hover {
-  color: #CBBD9A !important;
+  color: #1faced !important;
   padding-left: 0;
 }
 
@@ -3016,7 +3016,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang span.current a, hea
   letter-spacing: 2px;
   padding: 10px 0;
   margin-right: 16px;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.lang ul, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.lang ul {
@@ -3143,7 +3143,7 @@ header nav.navbar #menu-classic {
     padding: 0;
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu li div ul li a {
-    color: #CBBD9A;
+    color: #1faced;
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu:after {
     content: "\f3d6";
@@ -3159,14 +3159,14 @@ header nav.navbar #menu-classic {
     transition: all .4s ease;
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu.open > a {
-    color: #CBBD9A;
+    color: #1faced;
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu.open:after {
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);
     transition: all .4s ease;
-    color: #CBBD9A;
+    color: #1faced;
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu.open ul.sub-menu {
     display: block;
@@ -3200,7 +3200,7 @@ header nav.navbar #menu-responsive .menu-button, header nav.navbar #menu-respons
 }
 
 header nav.navbar #menu-responsive .menu-button .bar, header nav.navbar #menu-responsive-sidemenu .menu-button .bar, header nav.navbar #menu-responsive-classic .menu-button .bar {
-  background-color: #2F2911;
+  background-color: #1faced;
   height: 2px;
   width: 30px;
   display: block;
@@ -3263,7 +3263,7 @@ header nav.navbar #menu-responsive.minimal, header nav.navbar #menu-responsive-s
 
 @media screen and (max-width: 767px) {
   header nav.navbar #menu-responsive-classic.open .menu-button .bar {
-    background-color: #2F2911;
+    background-color: #1faced;
   }
 }
 
@@ -3297,13 +3297,13 @@ header nav.navbar #search-box button.close-search-box {
   margin: 0 auto;
   font-size: 100px;
   font-weight: 100;
-  color: #CBBD9A;
+  color: #1faced;
   width: 50px;
   height: 120px;
 }
 
 header nav.navbar #search-box .form-input .form-field {
-  border-bottom-color: #2F2911;
+  border-bottom-color: #1faced;
 }
 
 header nav.navbar.white #logo img:not(.white-logo) {
@@ -3316,7 +3316,7 @@ header nav.navbar.white #menu .menu-holder ul li > a, header nav.navbar.white #s
 }
 
 header nav.navbar.white #menu .menu-holder ul li > a.active-item, header nav.navbar.white #sidemenu .menu-holder ul li > a.active-item, header nav.navbar.white #menu-classic .menu-holder ul li > a.active-item {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -3326,16 +3326,16 @@ header nav.navbar.white #menu .menu-holder ul li.lang span.current a, header nav
 
 @media screen and (max-width: 991px) {
   header nav.navbar.white #menu .menu-holder ul li.lang span.current a, header nav.navbar.white #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar.white #menu-classic .menu-holder ul li.lang span.current a {
-    color: #CBBD9A;
+    color: #1faced;
   }
 }
 
 header nav.navbar.white #menu.open .menu-holder ul li > a, header nav.navbar.white #sidemenu.open .menu-holder ul li > a, header nav.navbar.white #menu-classic.open .menu-holder ul li > a {
-  color: #2F2911;
+  color: #1faced;
 }
 
 header nav.navbar.white #menu.open .menu-holder ul li > a.active-item, header nav.navbar.white #sidemenu.open .menu-holder ul li > a.active-item, header nav.navbar.white #menu-classic.open .menu-holder ul li > a.active-item {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -3344,7 +3344,7 @@ header nav.navbar.white #sidemenu.open .menu-holder ul li > a {
 }
 
 header nav.navbar.white #sidemenu.open .menu-holder ul li > a.active-item {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -3353,7 +3353,7 @@ header nav.navbar.white #menu-responsive .menu-button .bar, header nav.navbar.wh
 }
 
 header nav.navbar.white #search-box .form-input i {
-  color: #2F2911;
+  color: #1faced;
 }
 
 /*-------------------------------------------------*/
@@ -3611,7 +3611,7 @@ header nav.navbar.white #search-box .form-input i {
 #page-content #flexslider ul li .text h1, #page-content #flexslider-nav ul li .text h1 {
   font-size: 55px;
   line-height: 60px;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 @media screen and (max-width: 650px) {
@@ -3633,7 +3633,7 @@ header nav.navbar.white #search-box .form-input i {
   font-size: 16px;
   line-height: 26px;
   font-family: "Trirong", serif;
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 300;
 }
 
@@ -4083,7 +4083,7 @@ header nav.navbar.white #search-box .form-input i {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   text-transform: none;
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
   margin-bottom: 25px;
   height: 40px;
@@ -4098,11 +4098,11 @@ header nav.navbar.white #search-box .form-input i {
 
 #page-content #projects ul.filters li.is-checked, #page-content #projects-filters ul.filters li.is-checked, #page-content #masonry-filters ul.filters li.is-checked, #page-content #showcase-treks ul.filters li.is-checked, #page-content #gallery ul.filters li.is-checked {
   text-decoration: none;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #page-content #projects ul.filters li:hover, #page-content #projects-filters ul.filters li:hover, #page-content #masonry-filters ul.filters li:hover, #page-content #showcase-treks ul.filters li:hover, #page-content #gallery ul.filters li:hover {
-  color: #CBBD9A;
+  color: #1faced;
   text-decoration: none;
   transition: all .4s ease;
 }
@@ -4118,7 +4118,7 @@ header nav.navbar.white #search-box .form-input i {
 #page-content #projects ul.filters.light li, #page-content #projects-filters ul.filters.light li, #page-content #masonry-filters ul.filters.light li, #page-content #showcase-treks ul.filters.light li, #page-content #gallery ul.filters.light li {
   width: 50%;
   float: left;
-  color: #2F2911;
+  color: #1faced;
   margin-left: -15px;
   margin: 16px 0;
   font-weight: 300;
@@ -4132,18 +4132,18 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #projects ul.filters.light li.is-checked, #page-content #projects-filters ul.filters.light li.is-checked, #page-content #masonry-filters ul.filters.light li.is-checked, #page-content #showcase-treks ul.filters.light li.is-checked, #page-content #gallery ul.filters.light li.is-checked {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
   border: none;
 }
 
 #page-content #projects ul.filters.light li:hover, #page-content #projects-filters ul.filters.light li:hover, #page-content #masonry-filters ul.filters.light li:hover, #page-content #showcase-treks ul.filters.light li:hover, #page-content #gallery ul.filters.light li:hover {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
 #page-content #projects a:hover, #page-content #projects-filters a:hover, #page-content #masonry-filters a:hover, #page-content #showcase-treks a:hover, #page-content #gallery a:hover {
-  color: #2F2911;
+  color: #1faced;
 }
 
 #page-content #projects .projects-items .one-item, #page-content #projects .masonry-items .one-item, #page-content #projects-filters .projects-items .one-item, #page-content #projects-filters .masonry-items .one-item, #page-content #masonry-filters .projects-items .one-item, #page-content #masonry-filters .masonry-items .one-item, #page-content #showcase-treks .projects-items .one-item, #page-content #showcase-treks .masonry-items .one-item, #page-content #gallery .projects-items .one-item, #page-content #gallery .masonry-items .one-item {
@@ -4181,7 +4181,7 @@ header nav.navbar.white #search-box .form-input i {
   position: absolute;
   top: 50px;
   right: 50px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -4609,7 +4609,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content .section-text a.btn-pro {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #page-content .section-text.half .col-md-6 {
@@ -4678,7 +4678,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #news .single-news article span.category {
-  color: #CBBD9A;
+  color: #1faced;
   letter-spacing: 0;
   margin-bottom: 9px;
   display: inline-block;
@@ -4700,7 +4700,7 @@ header nav.navbar.white #search-box .form-input i {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin: 0px 0 9px 0;
-  color: #2F2911;
+  color: #1faced;
   transition: opacity .4s ease;
 }
 
@@ -4739,7 +4739,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #news .single-news:hover article h3 {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -4749,7 +4749,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #news .single-news:hover article p {
-  color: #2F2911;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -4923,7 +4923,7 @@ header nav.navbar.white #search-box .form-input i {
 #page-content #showcase-projects .item .showcase-project .content .meta h3, #page-content #showcase-projects .item .showcase-trek .content .meta h3, #page-content #showcase-treks .item .showcase-project .content .meta h3, #page-content #showcase-treks .item .showcase-trek .content .meta h3 {
   font-size: 20px;
   line-height: 24px;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #page-content #showcase-projects .item .showcase-project .content .meta h4, #page-content #showcase-projects .item .showcase-trek .content .meta h4, #page-content #showcase-treks .item .showcase-project .content .meta h4, #page-content #showcase-treks .item .showcase-trek .content .meta h4 {
@@ -4951,7 +4951,7 @@ header nav.navbar.white #search-box .form-input i {
 
 #page-content #showcase-projects .item .showcase-project .content .info h6, #page-content #showcase-projects .item .showcase-trek .content .info h6, #page-content #showcase-treks .item .showcase-project .content .info h6, #page-content #showcase-treks .item .showcase-trek .content .info h6 {
   font-family: "Trirong", serif;
-  color: #2F2911;
+  color: #1faced;
 }
 
 #page-content #showcase-projects .item .showcase-project span, #page-content #showcase-projects .item .showcase-trek span, #page-content #showcase-treks .item .showcase-project span, #page-content #showcase-treks .item .showcase-trek span {
@@ -4962,7 +4962,7 @@ header nav.navbar.white #search-box .form-input i {
   position: absolute;
   top: 36px;
   left: 36px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 2px;
   height: 40px;
   line-height: 40px;
@@ -5008,7 +5008,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #showcase-projects .item:hover .showcase-project h6, #page-content #showcase-projects .item:hover .showcase-trek h6, #page-content #showcase-treks .item:hover .showcase-project h6, #page-content #showcase-treks .item:hover .showcase-trek h6 {
-  color: #CBBD9A !important;
+  color: #1faced !important;
   transition: color .4s ease;
 }
 
@@ -5112,7 +5112,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #team .single-person .content ul.social li a {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -5157,7 +5157,7 @@ header nav.navbar.white #search-box .form-input i {
 
 #page-content #team .single-person .content ul.social li:hover a {
   background-color: #F6F6F6;
-  color: #2F2911;
+  color: #1faced;
   transition: all .4s ease;
 }
 
@@ -5171,7 +5171,7 @@ header nav.navbar.white #search-box .form-input i {
   line-height: 26px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #2F2911;
+  color: #1faced;
 }
 
 #page-content #team .single-person .description h6 {
@@ -5372,7 +5372,7 @@ aside.sidebar form .form-input span.form-button {
   line-height: 39px;
   color: white;
   border-radius: 0 2px 2px 0;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   text-align: center;
 }
 
@@ -5402,12 +5402,12 @@ aside.sidebar ul.recent-posts li a p {
   font-size: 14px;
   line-height: 20px;
   transition: color .4s ease;
-  color: #2F2911;
+  color: #1faced;
   letter-spacing: 0.5px;
 }
 
 aside.sidebar ul.recent-posts li a:hover p {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -5426,7 +5426,7 @@ aside.sidebar ul.recent-posts li .meta, aside.sidebar ul.recent-posts li .catego
 }
 
 aside.sidebar ul.recent-posts li .category {
-  color: #CBBD9A;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -5441,7 +5441,7 @@ aside.sidebar ul.widget-categories li a {
 }
 
 aside.sidebar ul.widget-categories li a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 aside.sidebar ul.tagCloud li {
@@ -5461,12 +5461,12 @@ aside.sidebar ul.tagCloud li a {
 }
 
 aside.sidebar ul.tagCloud li a.popular {
-  color: #CBBD9A;
+  color: #1faced;
   letter-spacing: 0.5px;
 }
 
 aside.sidebar ul.tagCloud li a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 aside.sidebar h5 {
@@ -5476,7 +5476,7 @@ aside.sidebar h5 {
   font-size: 16px;
   line-height: 32px;
   font-weight: 100;
-  color: #2F2911;
+  color: #1faced;
   margin-bottom: 18px;
 }
 
@@ -5732,7 +5732,7 @@ aside.left form .form-input span.form-button {
   height: 50px;
   float: left;
   color: white;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
   transition: transform .4s ease, -webkit-transform .4s ease;
@@ -5787,7 +5787,7 @@ aside.left form .form-input span.form-button {
 }
 
 .content-section ul.services li:hover .icon-text p {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -5910,11 +5910,11 @@ aside.left form .form-input span.form-button {
   font-size: 24px;
   line-height: 34px;
   margin: 0px 0 9px 0;
-  color: #2F2911;
+  color: #1faced;
 }
 
 #post-wrap span.category {
-  color: #CBBD9A;
+  color: #1faced;
   font-family: "Trirong", serif;
   font-size: 16px;
   line-height: 26px;
@@ -5932,7 +5932,7 @@ aside.left form .form-input span.form-button {
   position: absolute;
   bottom: 0px;
   font-family: "Trirong", serif;
-  color: #CBBD9A;
+  color: #1faced;
   margin: 0 9px 0 2px;
 }
 
@@ -5969,7 +5969,7 @@ aside.left form .form-input span.form-button {
   position: absolute;
   content: "\f383";
   font-family: "Ionicons";
-  color: #CBBD9A;
+  color: #1faced;
   left: 0;
   top: 0;
 }
@@ -5990,7 +5990,7 @@ aside.left form .form-input span.form-button {
 
 #post-wrap #post-meta.project ul.tagCloud li a, #post-wrap #project-meta.project ul.tagCloud li a {
   color: white;
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 #post-wrap #post-meta img, #post-wrap #project-meta img {
@@ -6034,12 +6034,12 @@ aside.left form .form-input span.form-button {
 }
 
 #post-wrap #post-meta ul.tagCloud li a, #post-wrap #project-meta ul.tagCloud li a {
-  color: #CBBD9A;
+  color: #1faced;
   font-family: "Trirong", serif;
   font-size: 14px;
   line-height: 24px;
   margin: 9px 0;
-  border: 1px solid #CBBD9A;
+  border: 1px solid #1faced;
   padding: 6px;
   border-radius: 2px;
   font-weight: 300;
@@ -6099,7 +6099,7 @@ aside.left form .form-input span.form-button {
 #post-wrap #share .share-btn i {
   font-size: 24px;
   line-height: 60px;
-  color: #2F2911;
+  color: #1faced;
 }
 
 #post-wrap #share .share-icons {
@@ -6155,7 +6155,7 @@ aside.left form .form-input span.form-button {
 #post-wrap #share .share-icons.open a.share-mail {
   bottom: auto;
   top: 160px;
-  background-color: #2F2911;
+  background-color: #1faced;
   transition: top .25s ease-in-out;
 }
 
@@ -6203,7 +6203,7 @@ aside.left form .form-input span.form-button {
 #post-wrap #share .share-icons a.share-mail {
   transition: top .25s ease-in-out;
   top: -55px;
-  background-color: #2F2911;
+  background-color: #1faced;
 }
 
 #post-wrap .post-gallery .owl-item {
@@ -6266,7 +6266,7 @@ aside.left form .form-input span.form-button {
 #comments .comment span.comment-author {
   font-family: "Trirong", serif;
   font-weight: 400;
-  color: #2F2911;
+  color: #1faced;
   font-size: 16px;
   line-height: 26px;
 }
@@ -6278,12 +6278,12 @@ aside.left form .form-input span.form-button {
 #comments .comment span.comment-btn a {
   font-size: 16px;
   font-family: "Trirong", serif;
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
 #comments .comment span.comment-btn a:hover {
-  color: #2F2911;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -6297,7 +6297,7 @@ aside.left form .form-input span.form-button {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
   font-style: italic;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 /*-------------------------------------------------*/
@@ -6482,7 +6482,7 @@ aside.left form .form-input span.form-button {
 }
 
 .project-images .item .content .social ul li a, .team-profiles .item .content .social ul li a {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -6497,7 +6497,7 @@ aside.left form .form-input span.form-button {
 
 .project-images .item .content .social ul li:hover a, .team-profiles .item .content .social ul li:hover a {
   background-color: #F6F6F6;
-  color: #2F2911;
+  color: #1faced;
   transition: all .4s ease;
 }
 
@@ -6582,7 +6582,7 @@ aside.left form .form-input span.form-button {
 }
 
 .project-alt ul li a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 /*-------------------------------------------------*/
@@ -6599,7 +6599,7 @@ aside.left form .form-input span.form-button {
   font-size: 14px;
   line-height: 14px;
   background-color: #F6F6F6;
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -6672,7 +6672,7 @@ aside.left form .form-input span.form-button {
 }
 
 #contact-form #submit-contact:hover, #search-form #submit-contact:hover {
-  color: #2F2911;
+  color: #1faced;
   transition: all .4s ease;
 }
 
@@ -6682,8 +6682,8 @@ aside.left form .form-input span.form-button {
   text-transform: none;
   font-weight: 400;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   text-transform: uppercase;
   border-radius: 2px;
@@ -6699,7 +6699,7 @@ aside.left form .form-input span.form-button {
 }
 
 #contact-form #submit-contact.btn-alt:hover, #search-form #submit-contact.btn-alt:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   transition: all .4s ease;
 }
@@ -6714,19 +6714,19 @@ aside.left form .form-input span.form-button {
 
 #contact-form #submit-contact.btn-alt.white:hover, #search-form #submit-contact.btn-alt.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
   transition: all .4s ease;
 }
 
 #contact-form #submit-contact.btn-alt.active, #search-form #submit-contact.btn-alt.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   transition: all .4s ease;
 }
 
 #contact-form #submit-contact.btn-alt.active:hover, #search-form #submit-contact.btn-alt.active:hover {
   background-color: transparent;
-  color: #CBBD9A !important;
+  color: #1faced !important;
   transition: all .4s ease;
 }
 
@@ -6758,38 +6758,38 @@ aside.left form .form-input span.form-button {
 }
 
 #contact-form.color ::-webkit-input-placeholder, #search-form.color ::-webkit-input-placeholder {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #contact-form.color :-moz-placeholder, #search-form.color :-moz-placeholder {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #contact-form.color ::-moz-placeholder, #search-form.color ::-moz-placeholder {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #contact-form.color :-ms-input-placeholder, #search-form.color :-ms-input-placeholder {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 #contact-form.black ::-webkit-input-placeholder, #search-form.black ::-webkit-input-placeholder {
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
 }
 
 #contact-form.black :-moz-placeholder, #search-form.black :-moz-placeholder {
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
 }
 
 #contact-form.black ::-moz-placeholder, #search-form.black ::-moz-placeholder {
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
 }
 
 #contact-form.black :-ms-input-placeholder, #search-form.black :-ms-input-placeholder {
-  color: #2F2911;
+  color: #1faced;
   font-weight: 400;
 }
 
@@ -6843,7 +6843,7 @@ aside.left form .form-input span.form-button {
 
 span.contact-info {
   font-family: "Trirong", serif;
-  color: #2F2911;
+  color: #1faced;
   font-size: 16px;
   line-height: 26px;
   margin-right: 36px;
@@ -6851,12 +6851,12 @@ span.contact-info {
 }
 
 span.contact-info a em {
-  color: #CBBD9A;
+  color: #1faced;
   transition: color .4s ease;
 }
 
 span.contact-info a:hover em {
-  color: #2F2911;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -6980,7 +6980,7 @@ span.contact-info em {
 }
 
 #contact-newsletter #submit-newsletter:hover {
-  color: #2F2911;
+  color: #1faced;
   transition: all .4s ease;
 }
 
@@ -6991,8 +6991,8 @@ span.contact-info em {
   font-weight: 600;
   text-rendering: geometricPrecision;
   background-color: transparent;
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
   transition: all .4s ease;
   border-radius: 0px 40px 40px 0px;
   padding-right: 30px;
@@ -7013,7 +7013,7 @@ span.contact-info em {
 }
 
 #contact-newsletter #submit-newsletter.btn-alt:hover {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   transition: all .4s ease;
 }
@@ -7024,31 +7024,31 @@ span.contact-info em {
 
 #contact-newsletter #submit-newsletter.btn-alt.white:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
   transition: all .4s ease;
 }
 
 #contact-newsletter #submit-newsletter.btn-alt.color {
-  border: 1px solid #CBBD9A;
-  color: #CBBD9A;
+  border: 1px solid #1faced;
+  color: #1faced;
 }
 
 #contact-newsletter #submit-newsletter.btn-alt.color.active {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white !important;
 }
 
 #contact-newsletter #submit-newsletter.btn-alt.color.active:hover {
   background-color: white;
-  color: #CBBD9A !important;
+  color: #1faced !important;
   border: 1px solid transparent;
-  border-left: 1px solid #CBBD9A;
+  border-left: 1px solid #1faced;
 }
 
 @media screen and (max-width: 410px) {
   #contact-newsletter #submit-newsletter.btn-alt.color.active:hover {
     background-color: transparent;
-    border: 1px solid #CBBD9A;
+    border: 1px solid #1faced;
   }
 }
 
@@ -7196,7 +7196,7 @@ footer .copy a, .footer .copy a {
 }
 
 footer .copy a:hover, .footer .copy a:hover {
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 footer .copy a#backtotop, .footer .copy a#backtotop {
@@ -7272,7 +7272,7 @@ footer ul.social li a, .footer ul.social li a {
   line-height: 30px;
   height: 30px;
   width: 30px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 15px;
   display: block;
   transition: all .4s ease;
@@ -7285,7 +7285,7 @@ footer ul.social li a i, .footer ul.social li a i {
 
 footer ul.social li a:hover, .footer ul.social li a:hover {
   color: white;
-  background-color: #2F2911;
+  background-color: #1faced;
   transition: all .4s ease;
 }
 
@@ -7364,14 +7364,14 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0px;
-  color: #2F2911;
+  color: #1faced;
   font-family: "Montserrat", sans-serif;
 }
 
 #pricing .price .price-number {
   font-size: 50px;
   line-height: 70px;
-  color: #2F2911;
+  color: #1faced;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
 }
@@ -7401,13 +7401,13 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
 #pricing .price ul.style li {
   position: relative;
   padding-left: 26px;
-  color: #2F2911;
+  color: #1faced;
 }
 
 #pricing .price ul.style li:before {
   content: "\f383";
   font-family: "Ionicons";
-  color: #CBBD9A;
+  color: #1faced;
   margin-right: 18px;
 }
 
@@ -7455,7 +7455,7 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
   height: 20px;
   display: block;
   float: left;
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 .testimonials-carousel, .testimonials-carousel-simple {
@@ -7468,7 +7468,7 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
   font-family: "Montserrat", sans-serif;
   margin-bottom: -60px;
   display: block;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 .testimonials-carousel img, .testimonials-carousel-simple img {
@@ -7521,7 +7521,7 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
 }
 
 .testimonials-carousel-simple blockquote {
-  color: #2F2911;
+  color: #1faced;
   font-family: "Trirong", serif;
   font-size: 16px;
   line-height: 26px;
@@ -7546,7 +7546,7 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
 }
 
 .testimonials-carousel-simple blockquote.grey-light:before, .testimonials-carousel-simple blockquote.white:before {
-  color: #CBBD9A;
+  color: #1faced;
   text-shadow: 4px 4px 10px #444;
 }
 
@@ -7558,7 +7558,7 @@ footer ul.social li a:hover, .footer ul.social li a:hover {
   letter-spacing: 0;
   padding-left: 6px;
   font-weight: 300;
-  color: #2F2911;
+  color: #1faced;
   margin-bottom: 0;
   display: inline-block;
 }
@@ -7658,7 +7658,7 @@ table {
 }
 
 table th {
-  color: #2F2911;
+  color: #1faced;
   text-align: left;
   padding: 15px !important;
   border: 1px solid transparent !important;
@@ -7700,7 +7700,7 @@ table td {
 
 .table-responsive.shadow:hover {
   box-shadow: none;
-  border: 1px solid #CBBD9A;
+  border: 1px solid #1faced;
   transition: all .4s ease;
 }
 
@@ -7718,25 +7718,25 @@ table td {
 .alert.alert-success {
   border: 2px solid #dff0d8;
   background-color: transparent;
-  color: #2F2911;
+  color: #1faced;
 }
 
 .alert.alert-info {
-  border: 2px solid #CBBD9A;
+  border: 2px solid #1faced;
   background-color: transparent;
-  color: #2F2911;
+  color: #1faced;
 }
 
 .alert.alert-warning {
   border: 2px solid #fcf8e3;
   background-color: transparent;
-  color: #2F2911;
+  color: #1faced;
 }
 
 .alert.alert-danger {
   border: 2px solid #f2dede;
   background-color: transparent;
-  color: #2F2911;
+  color: #1faced;
 }
 
 .alert .close {
@@ -7744,7 +7744,7 @@ table td {
   font-size: 30px;
   font-weight: 100;
   top: -4px;
-  color: #2F2911;
+  color: #1faced;
   opacity: .8;
 }
 
@@ -7763,7 +7763,7 @@ table td {
 }
 
 #skills ul.skill-list em {
-  color: #2F2911;
+  color: #1faced;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -7776,7 +7776,7 @@ table td {
 #skills ul.skill-list li {
   border-bottom: 8px solid #F6F6F6;
   position: relative;
-  color: #2F2911;
+  color: #1faced;
   font-size: 18px;
   line-height: 20px;
   font-family: "Roboto", sans-serif;
@@ -7790,8 +7790,8 @@ table td {
   height: 8px;
   width: 0;
   position: absolute;
-  background: #CBBD9A;
-  background-color: #CBBD9A;
+  background: #1faced;
+  background-color: #1faced;
   bottom: -8px;
   left: 0;
   border-radius: 8px;
@@ -7804,7 +7804,7 @@ table td {
   padding: 3px 3px 3px 5px;
   width: 45px;
   text-align: right;
-  background-color: #CBBD9A;
+  background-color: #1faced;
 }
 
 #skills.white ul.skill-list li {
@@ -7817,7 +7817,7 @@ table td {
 
 #skills.white ul.skill-list li span.label {
   background-color: white;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 .image-carousel .owl-controls {
@@ -7855,7 +7855,7 @@ table td {
 .image-carousel .owl-controls .owl-nav .owl-prev span, .image-carousel .owl-controls .owl-nav .owl-next span {
   height: 40px;
   width: 40px;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   color: white;
   display: block;
   border-radius: 0 4px 4px 0;
@@ -7902,11 +7902,11 @@ table td {
 }
 
 .image-carousel.dark-dots .owl-controls .owl-dots .owl-dot span {
-  background-color: #2F2911;
+  background-color: #1faced;
 }
 
 .image-carousel.dark-dots .owl-controls .owl-dots .owl-dot span.active {
-  background-color: #2F2911;
+  background-color: #1faced;
 }
 
 .gallery-carousel .item {
@@ -7954,7 +7954,7 @@ table td {
 }
 
 .gallery-carousel .owl-controls .owl-nav .owl-prev i, .gallery-carousel .owl-controls .owl-nav .owl-next i {
-  color: #2F2911;
+  color: #1faced;
   font-size: 26px;
   line-height: 40px;
 }
@@ -8085,7 +8085,7 @@ table td {
 }
 
 .home-carousel .owl-controls .owl-nav .owl-prev, .home-carousel .owl-controls .owl-nav .owl-next {
-  background-color: #2F2911;
+  background-color: #1faced;
   width: 50px;
   height: 50px;
   font-size: 18px;
@@ -8283,13 +8283,13 @@ em.number {
   line-height: 38px;
   color: white;
   border-radius: 0 2px 2px 0;
-  background-color: #CBBD9A;
+  background-color: #1faced;
   text-align: center;
   transition: all .4s ease;
 }
 
 #newsletter-form form .form-input span.form-button:hover {
-  background-color: #2F2911;
+  background-color: #1faced;
   border-radius: 0 2px 2px 0;
   transition: all .4s ease;
 }
@@ -8341,7 +8341,7 @@ em.number {
 }
 
 .hiker ul.social li a {
-  background-color: #CBBD9A;
+  background-color: #1faced;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -8443,7 +8443,7 @@ em.number {
 
 .gallery-meta span.like i {
   margin: 0 9px;
-  color: #CBBD9A;
+  color: #1faced;
 }
 
 .gallery-meta span.like a {
@@ -8452,7 +8452,7 @@ em.number {
 }
 
 .gallery-meta span.like a:hover {
-  color: #2F2911;
+  color: #1faced;
   transition: color .4s ease;
 }
 
@@ -8472,7 +8472,7 @@ em.number {
 
 .gallery-meta span.info em {
   font-weight: 400;
-  color: #2F2911;
+  color: #1faced;
   padding-right: 9px;
 }
 
@@ -8487,7 +8487,7 @@ em.number {
   position: absolute;
   bottom: 0px;
   font-family: "Trirong", serif;
-  color: #CBBD9A;
+  color: #1faced;
   margin: 0 9px 0 2px;
 }
 
@@ -8497,7 +8497,7 @@ em.number {
 
 .gallery-meta ul.tags li a {
   font-family: "Trirong", serif;
-  color: #CBBD9A;
+  color: #1faced;
   font-style: italic;
   font-weight: 100;
 }
@@ -8543,7 +8543,7 @@ em.number {
 }
 
 .pace .pace-progress {
-  background: #2F2911;
+  background: #1faced;
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -8578,7 +8578,7 @@ em.number {
   width: 80px;
   height: 80px;
   border-radius: 2px;
-  background-color: #2F2911;
+  background-color: #1faced;
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
   margin: 80px auto;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
@@ -8619,7 +8619,7 @@ em.number {
 /* =  16.Magnific popup
 /*-------------------------------------------------*/
 button.mfp-close {
-  background-color: #CBBD9A !important;
+  background-color: #1faced !important;
   color: white;
   transition: background-color .4s ease;
 }
@@ -8662,7 +8662,7 @@ button.mfp-close:hover {
   height: 12px;
   margin: 5px 7px;
   background: transparent;
-  border: 1px solid #CBBD9A;
+  border: 1px solid #1faced;
   border-radius: 50%;
   opacity: 1;
   display: block;
@@ -8671,7 +8671,7 @@ button.mfp-close:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background: #CBBD9A;
+  background: #1faced;
   opacity: 1;
 }
 
