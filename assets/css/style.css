@@ -27,6 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Trirong:300,300i,400,400i");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i");
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /* =  1.Reset
@@ -78,9 +79,9 @@ a:focus {
 /* =  2.General
 /*-------------------------------------------------*/
 body {
-  font: 100% "Montserrat", sans-serif;
-  color: #1faced;
-  background-color: #EEEEEE;
+    font: 100% "Montserrat", sans-serif;
+    color: #1faced;
+    background-color: #EEEEEE;
 }
 
 * {
@@ -88,9 +89,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: 100% "Montserrat", sans-serif;
-  color: #454545;
-  letter-spacing: 0.5px;
+    /*font: 100% "Montserrat", sans-serif;*/
+    font-family: 'Exo 2', sans-serif;
+    color: #454545;
+    letter-spacing: 0.5px;
 }
 
 h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
